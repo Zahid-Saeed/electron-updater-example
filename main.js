@@ -122,7 +122,7 @@ autoUpdater.on('update-downloaded', (ev, info) => {
   // In your application, you don't need to wait 5 seconds.
   // You could call autoUpdater.quitAndInstall(); immediately
   setTimeout(function() {
-    autoUpdater.quitAndInstall();  
+    autoUpdater.quitAndInstall();
   }, 5000)
 })
 
